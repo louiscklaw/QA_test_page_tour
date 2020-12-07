@@ -5,6 +5,8 @@ name = "pypi"
 
 [packages]
 pytest = "*"
+selenium = "*"
+diffimg = "*"
 
 [dev-packages]
 

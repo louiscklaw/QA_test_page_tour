@@ -1,5 +1,13 @@
 import os,sys
 from pprint import pprint
 
-def test_first_time_greeting():
-  print('test_first_time_greeting')
+from lib.setupLocalChrome import setupLocalChrome
+from lib.lib_helloworld import lib_helloworld
+from lib.steps.steps_helloworld import steps_helloworld
+from lib.pages.pages_helloworld import pages_helloworld
+
+def test_helloworlds():
+  print('test_helloworlds')
+  lib_helloworld()
+  steps_helloworld()
+  pages_helloworld()
